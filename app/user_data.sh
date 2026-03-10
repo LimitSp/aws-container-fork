@@ -10,7 +10,7 @@ set -eux
 dnf update -y
 dnf install -y git python3.13
 
-# Where to install the app
+# Where to install  the app
 APP_DIR=/home/ec2-user/xpix
 
 mkdir -p $APP_DIR
